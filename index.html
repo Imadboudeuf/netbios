@@ -1,64 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>NetBIOS Public - Validation</title>
+    <title>NetBIOS – DC300152410-00</title>
     <style>
         body {
+            background: #0d1117;
+            color: #e6edf3;
             font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
             text-align: center;
-            color: #333;
-            margin-bottom: 20px;
+            margin-top: 40px;
         }
-        .section-title {
-            color: #444;
-            margin-top: 25px;
-            font-size: 20px;
-            border-left: 4px solid #007bff;
-            padding-left: 10px;
+        .box {
+            border: 1px solid #30363d;
+            padding: 20px;
+            width: 60%;
+            margin: auto;
+            border-radius: 10px;
+            background: #161b22;
         }
-        .status-green {
-            color: white;
-            background-color: #28a745;
-            display: inline-block;
-            padding: 6px 14px;
-            border-radius: 6px;
-            font-weight: bold;
-            margin-top: 5px;
-        }
-        .info-text {
-            color: #555;
-        }
+        h1 { color: #00aaff; }
+        h2 { color: #ffcc00; }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <h1>NetBIOS Public Verification</h1>
+<div class="box">
+    <h1>Projet NetBIOS</h1>
+    <h2>Étudiant : Hocine – DC300152410-00</h2>
 
-    <p class="info-text">
-        This NetBIOS endpoint is used for Active Directory trust validation and identity verification.
-    </p>
+    <p><b>Domaine :</b> DC300152410-00.local</p>
+    <p><b>NetBIOS :</b> DC300152410-00</p>
+    <p><b>Partenaire :</b> 300151354</p>
 
-    <h2 class="section-title">Owner</h2>
-    <p class="info-text">Imad Boudef</p>
+    <hr>
 
-    <h2 class="section-title">Status</h2>
-    <span class="status-green">Operational</span>
+    <h2>Tests réalisés</h2>
+    <ul style="list-style: none;">
+        <li>✔️ Test de connectivité</li>
+        <li>✔️ Test DNS NetBIOS</li>
+        <li>✔️ Test Trust inter-forêts</li>
+        <li>✔️ Accès inter-domaine</li>
+    </ul>
 
+    <hr>
+
+    <p>Site généré pour la validation du projet NetBIOS.</p>
 </div>
 
 </body>
